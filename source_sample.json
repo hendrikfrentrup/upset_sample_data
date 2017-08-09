@@ -1,0 +1,17 @@
+{
+	"file": "",
+	"name": "Sources Test",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Entity ID" },
+		{ "type": "string", "index": 6, "name": "OS" },
+		{ "type": "string", "index": 7, "name": "Type" },
+		{ "type": "integer", "index": 8, "name": "Nr of Vulns" },
+    { "type": "integer", "index": 9, "name": "Nr of Open Ports" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 5 }
+	]
+}
